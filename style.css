@@ -1,3 +1,24 @@
+/* colors */
+:root {
+  --c-white: hsl(0, 0%, 100%);
+  --c-gray-dark: hsl(233, 14%, 25%);
+  --c-purple: hsl(232, 58%, 55%);
+  --c-magenta: hsl(320, 85%, 41%);
+  --c-teal: hsl(180, 100%, 42%);
+  --c-transparent: transparent;
+
+  --color-main-bg: var(--c-white);
+  --color-text-dark: var(--c-gray-dark);
+  --color-text-light: var(--c-white);
+  --color-hero-bg: var(--c-purple);
+  --color-pirmary-bg: var(--c-teal);
+  --color-button-primary-text: var(--c-gray-dark);
+  --color-button-secondary-bg: var(--c-transparent);
+  --color-button-secondary-border: var(--c-white);
+  --color-button-secondary-text: var(--c-white);
+  --color-fullwidth-bg: var(--c-magenta);
+}
+
 *,
 *::before,
 *::after {
