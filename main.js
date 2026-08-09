@@ -1,3 +1,11 @@
-console.log("this is test from yousef")
+let body = document.querySelector("h1");
+const html = document.querySelector("html")
 
-console.log("hi hi hi")
+body.style.backgroundColor = "lightblue";
+
+body.addEventListener('click' , () => {
+    console.log("this is tesg")
+})
+html.addEventListener('click', () => {
+    document.querySelector('body').style.backgroundColor = "yellow";
+})
